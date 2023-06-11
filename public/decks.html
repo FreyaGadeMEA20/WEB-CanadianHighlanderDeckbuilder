@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+        <title>Deck Template</title>
+
+        <script>
+            $(document).ready(function() {
+              $.getJSON("../data.json", function(data) {
+                // Process the JSON data here
+                RefreshDeck();
+                $(inputElement).val('')
+                .blur();
+              });
+            });
+          </script>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navbar">
+                <div class="topnav" style="position:relative;">
+                    <a href="main.html">Home</a>
+                    <a class="active"  href="decks.html">Decks</a>
+                    <a href="about.html">About</a>
+                    <a href="point-list.html">Point List</a>
+                    <a href="deck.html">
+                        <svg class="svg-inline--fa fa-plus fa-1x no-pointer-events" width="25px" height="25px" viewBox="0 0 460 460" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" aria-label="Open New Menu">
+                            <path class="plus" fill="#ffffff" d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <main>
+        <div class="deckheader-content">
+            <div class="container">
+                <form>
+                    <h1 class="mb-3">
+                        <span id="menu-deckname" class="no-outline cursor-pointer">
+                            <span class="deckheader-name">
+                                Random Assortment of Cards
+                            </span>
+                        </span>
+                        <input placeholder="Deck name..." class="change-deckname">
+                    </h1>
+                </form>
+                <div>
+                    <h2 class="points">Points</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="deckview">
+                <div class="image-block">
+                    <div class="deckview-image-container">
+                        <div class="card-display position-relative mx-auto">
+                            <img class="card-displayed img-card deckview-image">
+                        </div>
+                    </div>
+                </div>
+                <div style="flex-grow:2; flex-shrink:1; min-width:0px;">
+                    <div class="deck-container" id="deck-container">
+                        <ul class="deck-list">
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="search-bar">
+                    <input placeholder="Find and add cards..." type="text" id="input-field" class="input-field">
+                    <div class="card-list-container">
+                        <ul class="list-of-cards">
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+        <script src="js/add-card.js"></script>
+    </body>
+</html>

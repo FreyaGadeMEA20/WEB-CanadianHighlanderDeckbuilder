@@ -1,0 +1,242 @@
+[
+  {
+    "Card Name": "Ancestral Recall",
+    "Points": 7,
+    "Colors": "Blue",
+    "Types": "Instant"
+  },
+  {
+    "Card Name": "Birthing Pod",
+    "Points": 1,
+    "Colors": "Green",
+    "Types": "Artifact"
+  },
+  {
+    "Card Name": "Black Lotus",
+    "Points": 7,
+    "Colors": "Colorless",
+    "Types": "Artifact"
+  },
+  {
+    "Card Name": "Crop Rotation",
+    "Points": 1,
+    "Colors": "Green",
+    "Types": "Instant"
+  },
+  {
+    "Card Name": "Demonic Tutor",
+    "Points": 4,
+    "Colors": "Black",
+    "Types": "Sorcery"
+  },
+  {
+    "Card Name": "Dig Through Time",
+    "Points": 1,
+    "Colors": "Blue",
+    "Types": "Instant"
+  },
+  {
+    "Card Name": "Flash",
+    "Points": 5,
+    "Colors": "Blue",
+    "Types": "Instant"
+  },
+  {
+    "Card Name": "Gifts Ungiven",
+    "Points": 2,
+    "Colors": "Blue",
+    "Types": "Instant"
+  },
+  {
+    "Card Name": "Imperial Seal",
+    "Points": 1,
+    "Colors": "Black",
+    "Types": "Sorcery"
+  },
+  {
+    "Card Name": "Intuition",
+    "Points": 1,
+    "Colors": "Blue",
+    "Types": "Instant"
+  },
+  {
+    "Card Name": "Mana Crypt",
+    "Points": 5,
+    "Colors": "Colorless",
+    "Types": "Artifact"
+  },
+  {
+    "Card Name": "Mana Drain",
+    "Points": 1,
+    "Colors": "Blue",
+    "Types": "Instant"
+  },
+  {
+    "Card Name": "Mana Vault",
+    "Points": 1,
+    "Colors": "Colorless",
+    "Types": "Artifact"
+  },
+  {
+    "Card Name": "Merchant Scroll",
+    "Points": 1,
+    "Colors": "Blue",
+    "Types": "Sorcery"
+  },
+  {
+    "Card Name": "Mox Emerald",
+    "Points": 3,
+    "Colors": "Colorless",
+    "Types": "Artifact"
+  },
+  {
+    "Card Name": "Mox Jet",
+    "Points": 3,
+    "Colors": "Colorless",
+    "Types": "Artifact"
+  },
+  {
+    "Card Name": "Mox Pearl",
+    "Points": 3,
+    "Colors": "Colorless",
+    "Types": "Artifact"
+  },
+  {
+    "Card Name": "Mox Ruby",
+    "Points": 3,
+    "Colors": "Colorless",
+    "Types": "Artifact"
+  },
+  {
+    "Card Name": "Mox Sapphire",
+    "Points": 3,
+    "Colors": "Colorless",
+    "Types": "Artifact"
+  },
+  {
+    "Card Name": "Mystical Tutor",
+    "Points": 1,
+    "Colors": "Blue",
+    "Types": "Instant"
+  },
+  {
+    "Card Name": "Natural Order",
+    "Points": 3,
+    "Colors": "Green",
+    "Types": "Sorcery"
+  },
+  {
+    "Card Name": "Price of Progress",
+    "Points": 1,
+    "Colors": "Red",
+    "Types": "Instant"
+  },
+  {
+    "Card Name": "Sol Ring",
+    "Points": 4,
+    "Colors": "Colorless",
+    "Types": "Artifact"
+  },
+  {
+    "Card Name": "Spellseeker",
+    "Points": 3,
+    "Colors": "Blue",
+    "Types": "Creature"
+  },
+  {
+    "Card Name": "Strip Mine",
+    "Points": 3,
+    "Colors": "Colorless",
+    "Types": "Land"
+  },
+  {
+    "Card Name": "Survival of the Fittest",
+    "Points": 1,
+    "Colors": "Green",
+    "Types": "Enchantment"
+  },
+  {
+    "Card Name": "Tainted Pact",
+    "Points": 1,
+    "Colors": "Black",
+    "Types": "Instant"
+  },
+  {
+    "Card Name": "Thassa's Oracle",
+    "Points": 7,
+    "Colors": "Blue",
+    "Types": "Creature"
+  },
+  {
+    "Card Name": "Time Vault",
+    "Points": 7,
+    "Colors": "Colorless",
+    "Types": "Artifact"
+  },
+  {
+    "Card Name": "Time Walk",
+    "Points": 7,
+    "Colors": "Blue",
+    "Types": "Sorcery"
+  },
+  {
+    "Card Name": "Tinker",
+    "Points": 3,
+    "Colors": "Blue",
+    "Types": "Sorcery"
+  },
+  {
+    "Card Name": "Tolarian Academy",
+    "Points": 1,
+    "Colors": "Colorless",
+    "Types": "Land"
+  },
+  {
+    "Card Name": "Transmute Artifact",
+    "Points": 1,
+    "Colors": "Blue",
+    "Types": "Sorcery"
+  },
+  {
+    "Card Name": "Treasure Cruise",
+    "Points": 1,
+    "Colors": "Blue",
+    "Types": "Sorcery"
+  },
+  {
+    "Card Name": "True-Name Nemesis",
+    "Points": 1,
+    "Colors": "Blue",
+    "Types": "Creature"
+  },
+  {
+    "Card Name": "Umezawa's Jitte",
+    "Points": 2,
+    "Colors": "Colorless",
+    "Types": "Artifact"
+  },
+  {
+    "Card Name": "Underworld Breach",
+    "Points": 3,
+    "Colors": "Red",
+    "Types": "Enchantment"
+  },
+  {
+    "Card Name": "Vampiric Tutor",
+    "Points": 2,
+    "Colors": "Black",
+    "Types": "Instant"
+  },
+  {
+    "Card Name": "Wishclaw Talisman",
+    "Points": 1,
+    "Colors": "Black",
+    "Types": "Artifact"
+  },
+  {
+    "Card Name": "Yawgmoth's Will",
+    "Points": 1,
+    "Colors": "Black",
+    "Types": "Sorcery"
+  }
+]

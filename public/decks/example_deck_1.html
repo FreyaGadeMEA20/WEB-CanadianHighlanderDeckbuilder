@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/styles.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navbar">
+                <div class="topnav" style="position:relative;">
+                    <a class="active" href="#home">Home</a>
+                    <a href="#decks">Decks</a>
+                    <a href="#about">About</a>
+                    <a href="#point-list">Point List</a>
+                    <a href="#create-new-deck">
+                        <svg class="svg-inline--fa fa-plus fa-1x no-pointer-events" width="25px" height="25px" viewBox="0 0 460 460" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" aria-label="Open New Menu">
+                            <path class="plus" fill="#ffffff" d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main" id="main">
+            <div class="deckview">
+                <input type="text" name="fname" onsubmit="return addACard()">
+
+                <div class="showcase-card"></div>
+                <div class="cards">
+                    <div class="card">
+                        <img class="img-card" src="https://cards.scryfall.io/large/front/0/9/09ac9669-d0ee-4df8-af77-12dfccac774f.jpg" alt="Alesha, Who Smiles at Death" width="196" height="273">
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+
+        </footer>
+    </body>
+</html>
